@@ -11,5 +11,6 @@ namespace Assignment.Models
         public String? Description { get; set; }
 
         public List<Dish>? Dishes { get; set; }
+
     }
 }

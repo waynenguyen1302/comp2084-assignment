@@ -22,18 +22,18 @@ namespace Assignment.Controllers
         // GET: Menus
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Menu.ToListAsync());
+              return View(await _context.Menus.ToListAsync());
         }
 
         // GET: Menus/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Menu == null)
+            if (id == null || _context.Menus == null)
             {
                 return NotFound();
             }
 
-            var menu = await _context.Menu
+            var menu = await _context.Menus
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (menu == null)
             {
@@ -68,12 +68,12 @@ namespace Assignment.Controllers
         // GET: Menus/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Menu == null)
+            if (id == null || _context.Menus == null)
             {
                 return NotFound();
             }
 
-            var menu = await _context.Menu.FindAsync(id);
+            var menu = await _context.Menus.FindAsync(id);
             if (menu == null)
             {
                 return NotFound();
@@ -119,12 +119,12 @@ namespace Assignment.Controllers
         // GET: Menus/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Menu == null)
+            if (id == null || _context.Menus == null)
             {
                 return NotFound();
             }
 
-            var menu = await _context.Menu
+            var menu = await _context.Menus
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (menu == null)
             {
@@ -139,14 +139,14 @@ namespace Assignment.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Menu == null)
+            if (_context.Menus == null)
             {
                 return Problem("Entity set 'ApplicationDbContext.Menu'  is null.");
             }
-            var menu = await _context.Menu.FindAsync(id);
+            var menu = await _context.Menus.FindAsync(id);
             if (menu != null)
             {
-                _context.Menu.Remove(menu);
+                _context.Menus.Remove(menu);
             }
             
             await _context.SaveChangesAsync();
@@ -155,7 +155,7 @@ namespace Assignment.Controllers
 
         private bool MenuExists(int id)
         {
-          return _context.Menu.Any(e => e.Id == id);
+          return _context.Menus.Any(e => e.Id == id);
         }
     }
 }

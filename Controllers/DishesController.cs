@@ -48,13 +48,13 @@ namespace Assignment.Controllers
         // GET: Dishes/Create
         public IActionResult Create()
         {
-            ViewData["MenuId"] = new SelectList(_context.Menu, "Id", "Id");
+            ViewData["MenuId"] = new SelectList(_context.Menus, "Id", "Id");
             return View();
         }
 
         // POST: Dishes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317Dishes98.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,Image,MenuId")] Dish dish)
@@ -65,7 +65,7 @@ namespace Assignment.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MenuId"] = new SelectList(_context.Menu, "Id", "Id", dish.MenuId);
+            ViewData["MenuId"] = new SelectList(_context.Menus, "Id", "Id", dish.MenuId);
             return View(dish);
         }
 
@@ -82,7 +82,7 @@ namespace Assignment.Controllers
             {
                 return NotFound();
             }
-            ViewData["MenuId"] = new SelectList(_context.Menu, "Id", "Id", dish.MenuId);
+            ViewData["MenuId"] = new SelectList(_context.Menus, "Id", "Id", dish.MenuId);
             return View(dish);
         }
 
@@ -118,7 +118,7 @@ namespace Assignment.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MenuId"] = new SelectList(_context.Menu, "Id", "Id", dish.MenuId);
+            ViewData["MenuId"] = new SelectList(_context.Menus, "Id", "Id", dish.MenuId);
             return View(dish);
         }
 
@@ -148,7 +148,7 @@ namespace Assignment.Controllers
         {
             if (_context.Dishes == null)
             {
-                return Problem("Entity set 'ApplicationDbContext.Products'  is null.");
+                return Problem("Entity set 'ApplicationDbContext.Dish'  is null.");
             }
             var dish = await _context.Dishes.FindAsync(id);
             if (dish != null)

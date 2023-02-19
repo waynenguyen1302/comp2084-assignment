@@ -15,8 +15,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Wayne\OneDrive\Georgian College\Winter 2023\COMP2084 Server-side Scripting ASP.NET\Assignment\Assignment
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/CartItems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/CartItems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/CartItems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/CartItems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/CartItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/Dishes/Create.cshtml]
@@ -65,6 +101,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/Menus/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/OrderDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/OrderDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/OrderDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/OrderDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/OrderDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Views/Shared/Error.cshtml]
