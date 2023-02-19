@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZsyJJTMTnNDWeRhpOe9wYT8eo2jYQvOJpNtfR5cXm0k=",
+  "Hash": "nnIuu7FDDiJWGogA8ZpA6FQ3sQFQxi6RNGiZ5EY5rDs=",
   "Source": "Assignment",
   "BasePath": "_content/Assignment",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Wayne\\OneDrive\\Georgian College\\Winter 2023\\COMP2084 Server-side Scripting ASP.NET\\Assignment\\Assignment\\wwwroot\\img\\shopping-cart.png",
+      "SourceId": "Assignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Wayne\\OneDrive\\Georgian College\\Winter 2023\\COMP2084 Server-side Scripting ASP.NET\\Assignment\\Assignment\\wwwroot\\",
+      "BasePath": "_content/Assignment",
+      "RelativePath": "img/shopping-cart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shopping-cart.png"
     },
     {
       "Identity": "C:\\Users\\Wayne\\OneDrive\\Georgian College\\Winter 2023\\COMP2084 Server-side Scripting ASP.NET\\Assignment\\Assignment\\wwwroot\\js\\site.js",
