@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Wayne\OneDrive\Georgian College\Winter 2023\COMP2084 Server-side Scripting ASP.NET\Assignment\Assignment
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Wayne/OneDrive/Georgian College/Winter 2023/COMP2084 Server-side Scripting ASP.NET/Assignment/Assignment/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
