@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.IO;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Assignment.Data;
 using Assignment.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Assignment.Controllers
 {
@@ -57,10 +60,14 @@ namespace Assignment.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317Dishes98.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,Image,MenuId")] Dish dish)
+        public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,Image,MenuId")] Dish dish, IFormFile? Image)
         {
             if (ModelState.IsValid)
             {
+                if (Image != null)
+                {
+                    dish.Image = UploadPhoto(Image);
+                }
                 _context.Add(dish);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -163,6 +170,41 @@ namespace Assignment.Controllers
         private bool DishExists(int id)
         {
           return _context.Dishes.Any(e => e.Id == id);
+        }
+
+        private static string UploadPhoto(IFormFile Photo)
+        {
+            // use GUID (Globally Unique ID) to create a unique image name
+            // logo.jpg => fbdjqb32153-logo.jpg
+            var fileName = Guid.NewGuid().ToString() + "-" + Photo.FileName;
+
+            // Set a destination filepath dynamically (so it works locally and on the server)
+            var uploadPath = Directory.GetCurrentDirectory() + "\\wwwroot\\img\\dishes\\" + fileName;
+
+            // Write the uploaded file into our destination (wwwroot/img/products/...)
+            using (var stream = new FileStream(uploadPath, FileMode.Create))
+            {
+                Photo.CopyTo(stream);
+            }
+
+            return fileName;
+        }
+
+        private static void DeletePhoto(string Photo)
+        {
+            var path = Directory.GetCurrentDirectory() + "\\wwwroot\\img\\dishes\\" + Photo;
+
+            try
+            {
+                if (System.IO.File.Exists(path))
+                {
+                    System.IO.File.Delete(path);
+                }
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }
