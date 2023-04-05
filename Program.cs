@@ -1,6 +1,7 @@
 using Assignment.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,10 @@ builder.Services.AddSession(options =>
 });
 
 var configuration = builder.Configuration;
+
+//Configure stripe
+StripeConfiguration.ApiKey = configuration["Payments:Stripe:SecretKey"];
+
 builder.Services.AddAuthentication()
     .AddGoogle(options =>
     {
