@@ -12,9 +12,11 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.13",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.15",
           "Microsoft.AspNetCore.Identity.UI": "6.0.15",
+          "Microsoft.EntityFrameworkCore.InMemory": "6.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.15",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.15",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
+          "Stripe.net": "41.12.0"
         },
         "runtime": {
           "Assignment.dll": {}
@@ -977,6 +979,17 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/6.0.15": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.15"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "6.0.15.0",
+            "fileVersion": "6.0.1523.11510"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.15": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.15",
@@ -1551,6 +1564,18 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Stripe.net/41.12.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "41.12.0.0",
+            "fileVersion": "41.12.0.0"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -2637,6 +2662,13 @@
       "path": "microsoft.entityframeworkcore.design/6.0.15",
       "hashPath": "microsoft.entityframeworkcore.design.6.0.15.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.InMemory/6.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lRL5rTa6iM9SIubc75dTiQd2aYfURgEd7bz5tLA4T+++yOPFPVm9dCQ22ukGhnlJy6Xr9LAQEDOUrJmWDgByTw==",
+      "path": "microsoft.entityframeworkcore.inmemory/6.0.15",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.6.0.15.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore.Relational/6.0.15": {
       "type": "package",
       "serviceable": true,
@@ -3077,6 +3109,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Stripe.net/41.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HM0e++0MVO4R/5QfsZUysx3bhPK/KzEuAuwL3VNhnzRhYXKrcUaOI7ZQzDS8XWXCnhPuXB9V3YolN6XFfoxF3A==",
+      "path": "stripe.net/41.12.0",
+      "hashPath": "stripe.net.41.12.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

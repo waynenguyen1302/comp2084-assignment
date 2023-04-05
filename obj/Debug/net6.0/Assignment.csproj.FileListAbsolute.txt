@@ -553,3 +553,5 @@ C:\Users\quang\OneDrive\Georgian College\Winter 2023\COMP2084 Server-side Script
 C:\Users\quang\OneDrive\Georgian College\Winter 2023\COMP2084 Server-side Scripting ASP.NET\Assignment\Assignment\obj\Debug\net6.0\ref\Assignment.dll
 C:\Users\Wayne\OneDrive\Georgian College\Winter 2023\COMP2084 Server-side Scripting ASP.NET\Assignment\Assignment\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Wayne\OneDrive\Georgian College\Winter 2023\COMP2084 Server-side Scripting ASP.NET\Assignment\Assignment\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\Wayne\OneDrive\Georgian College\Winter 2023\COMP2084 Server-side Scripting ASP.NET\Assignment\Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Wayne\OneDrive\Georgian College\Winter 2023\COMP2084 Server-side Scripting ASP.NET\Assignment\Assignment\bin\Debug\net6.0\Stripe.net.dll

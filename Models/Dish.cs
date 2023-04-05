@@ -11,7 +11,6 @@
 
         public Menu? Menu {get; set; }
 
-        public List<CartItem>? CartItems { get; set; }
-        public List<OrderDetail>? OrderDetails { get; set; }
+        public List<OrderLine>? OrderLines { get; set; }
     }
 }

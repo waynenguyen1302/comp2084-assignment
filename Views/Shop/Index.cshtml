@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Assignment.Models.Menu>
+
+@{
+    ViewData["Title"] = "Choose A Menu";
+}
+
+<h1>Choose A Menu</h1>
+
+<section class="row card-group">
+    @foreach(var menu in Model)
+    {
+        <div class="col-lg-4 mb-3">
+            <div class="card mb-4">
+                <div class="card-body text-center h-100">
+                    <a asp-action="Menu" asp-route-id="@menu.Id">@menu.Name</a>
+                </div>
+            </div>
+        </div>
+    }
+</section>

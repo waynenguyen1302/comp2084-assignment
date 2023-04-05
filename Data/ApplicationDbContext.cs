@@ -13,7 +13,7 @@ namespace Assignment.Data
         public DbSet<Menu> Menus { get; set; }
         public DbSet<Dish> Dishes { get; set; }
         public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
-        public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<CartLine> CartLines { get; set; }
+        public DbSet<OrderLine> OrderLines { get; set; }
     }
 }
